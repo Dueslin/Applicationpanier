@@ -1,0 +1,12 @@
+
+  
+  
+Your app should now be live
+After application modification, repackage it with
+        mvnw -ntp verify -DskipTests=true -B -Pdev
+And then re-deploy it with
+        cf push -f ./deploy/cloudfoundry/manifest.yml -t 120 -p target/applicationpanier-0.0.1-SNAPSHOT.jar
+INFO! Congratulations, JHipster execution is complete!
+
+
+

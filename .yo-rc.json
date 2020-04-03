@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "fr.inti.apptest"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "monolith",
+    "baseName": "Applicationpanier",
+    "packageName": "fr.inti.apptest",
+    "packageFolder": "fr/inti/apptest",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODdlMDY3OGY1NzUzOGE5ZTJkNWUxYjVlNWJkZjM2N2Q0MWMxZTI3OWYzYmFjNzk2NTYyOWViMzFlZDU0M2ZiOWU5YTNlM2Y0MWViZDBhYzRlZjgyMjc1NzYzOWVmNzI4NjcxYjZkNDhhMTQxZDhiOGNiNDg4YmE1ZTUzZjUwZGU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1581685095133,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
